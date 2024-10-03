@@ -5,7 +5,8 @@
 //     Create a function for the terminal game that takes the current position of the hero and the roll (1-6) and return the new position.
 
 // ✅SOLUTION
-function move (position, roll) {
+function move(position, roll) {
     return position + roll * 2;
 }
-console.log(move(3,2));
+
+console.log(move(3, 2));
