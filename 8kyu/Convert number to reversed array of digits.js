@@ -7,11 +7,6 @@
 // ✅Solution
 
 function digitize(n) {
-
-  let res = []
-  let str = n.toString()
-  for(let i = str.length-1; i>=0; i--){
-     res.push(Number(str[i]))
-  }
-  return res
+return n.toString().split('').reverse().map(Number)
 }
+
